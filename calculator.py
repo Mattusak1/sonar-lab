@@ -10,11 +10,6 @@ def calculate_average(numbers):
     average = total / len(numbers)
     return average
  
-def unused_helper():
-    x = 10
-    y = 20
-    return x
- 
 def main():
     nums = [4, 8, 15, 16, 23, 42]
     print("Average:", calculate_average(nums))
