@@ -21,3 +21,7 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args: >
+            -Dsonar.projectKey=Mattusak1_sonar-lab
+            -Dsonar.organization=mattusak1
